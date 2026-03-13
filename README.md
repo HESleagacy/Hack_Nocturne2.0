@@ -1,6 +1,7 @@
 # Vitals
 
 Vitals is a secure, cross-institution healthcare interoperability platform based on FHIR (Fast Healthcare Interoperability Resources). It enables multiple hospitals to safely exchange patient data, resolve identities, manage data access consent, and maintain immutable audit trails using blockchain technology.
+---
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Docker](https://img.shields.io/badge/Docker-Enabled-green.svg)](https://www.docker.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-lightgrey.svg)](https://nodejs.org/)
@@ -28,7 +29,7 @@ The platform is designed around a microservices architecture, running behind a R
 
 ## Project Structure
 
-```text
+
 hack_nocturne2.0/
 ├── backend/                  # Core FastAPI application & SQLite database
 ├── frontend/                 # React frontend application
@@ -39,7 +40,6 @@ hack_nocturne2.0/
 │   ├── hospital-registry/        # Auth & Institution management
 │   └── mpi-service/              # Master Patient Index resolution
 └── docker-compose.yml        # Orchestrates all services
-```
 
 ## Prerequisites
 
